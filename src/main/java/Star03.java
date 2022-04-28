@@ -9,8 +9,8 @@ public class Star03 {
         Scanner scan = new Scanner(System.in);
         int inputNum = scan.nextInt();
 
-        for(int i = inputNum; i > 0; i--) { // 5 ~ 1 까지
-            for(int j = 0; j < i; j++){
+        for(int i = 0; i < inputNum; i++) { // 5 ~ 1 까지
+            for(int j = inputNum; j > i; j--){
                 System.out.print("*");
             }
             System.out.println();
