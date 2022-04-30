@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Test {
-    public static void main(String[] args){
+public class Ex2577 {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
@@ -14,7 +14,7 @@ public class Test {
             cnt[temp]++;
         }
 
-        for(int i = 0; i< result.length(); i++){
+        for(int i = 0; i< cnt.length; i++){
             System.out.println(cnt[i]);
         }
     }
