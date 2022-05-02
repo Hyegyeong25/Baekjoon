@@ -8,7 +8,7 @@ public class Ex2577 {
         int c = scan.nextInt();
 
         String result =  String.valueOf(a * b * c);
-        int[] cnt = new int[9];
+        int[] cnt = new int[10];
         for(int i = 0; i< result.length(); i++){
             int temp = Character.getNumericValue(result.charAt(i));
             cnt[temp]++;

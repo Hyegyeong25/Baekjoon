@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Ex3052 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int[] num = new int[10]; //숫자 10개 입력받을 배열
