@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Star07 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int inputNum = scan.nextInt();
+        int inputNum = 3;
 
         // 상단
         for(int i=1; i<=inputNum; i++) {
